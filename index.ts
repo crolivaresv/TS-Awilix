@@ -5,8 +5,8 @@ import './style.css';
 const appDiv: HTMLElement = document.getElementById('app');
 appDiv.innerHTML = `<h1>Awilix Typescript</h1>`;
 
-const User = container.container.resolve('user');
-const DateP = container.container.resolve('dateP');
+const User = container.resolve('user');
+const DateP = container.resolve('dateP');
 
 const getTodos = async (appDiv) => {
   const resultado = await DateP.todos();

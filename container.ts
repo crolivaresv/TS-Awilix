@@ -19,4 +19,4 @@ container.register({
   fetch: asClass(Fetch).singleton(),
 });
 
-export default { container };
+export default container;
